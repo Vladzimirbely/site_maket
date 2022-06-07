@@ -29,6 +29,28 @@ body {
 }
 
 .header_subtitle {
-    padding: 5rem 0;
+    padding: 4rem 0;
     font-size: x-small;
+}
+
+.menu {
+    height: 6rem;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-top: 0.5rem solid #fffcfa;
+    box-sizing: border-box;
+    background-color: #671700;
+}
+
+.menu li {
+    margin: 0 3rem;
+    text-transform: uppercase;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fffcfa;
 }
