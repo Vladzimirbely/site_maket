@@ -1,0 +1,34 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Manuale', serif;
+}
+
+.header {
+    background-color: #671700;
+}
+
+.header_txt {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    color: #fffcfa;
+}
+
+.header_title, .header_subtitle {
+    position: absolute;
+    left: 20%;
+}
+
+.header_title {
+    font-size: x-large;
+}
+
+.header_subtitle {
+    padding: 5rem 0;
+    font-size: x-small;
+}
