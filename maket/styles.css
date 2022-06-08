@@ -1,10 +1,18 @@
 html {
+    height: 100%;
     font-size: 10px;
 }
 
 body {
+    height: 100%;
     font-size: 1.6rem;
     font-family: 'Manuale', serif;
+}
+
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -34,16 +42,15 @@ body {
 }
 
 .menu {
-    height: 6rem;
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    border-top: 0.5rem solid #fffcfa;
     box-sizing: border-box;
-    background-color: #671700;
+    background: url(images/img01.jpg);
 }
+
 
 .menu li {
     margin: 0 3rem;
@@ -53,4 +60,35 @@ body {
 .menu li a {
     text-decoration: none;
     color: #fffcfa;
+}
+
+.main_content {
+    flex: 1 1 auto;
+}
+
+.footer_wrap {
+    height: 10rem;
+    position: relative;
+    background: url(images/img07.gif);
+}
+
+.footer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: small;
+    color: #fffcfa;
+}
+
+.footer a {
+    text-decoration: none;
+    border-right: 1px solid #fffcfa;
+    padding: 0 0.5rem;
+    color: #fffcfa;
+}
+
+.footer a:nth-child(5) {
+    border-right: none;
 }
