@@ -59,9 +59,9 @@ body {
 }
 
 .main_content {
-    max-width: 80%;
+    max-width: 1300px;
     margin: 0 auto;
-    display: inline-flex;
+    display: flex;
     padding: 4rem 0;
     box-sizing: border-box;
     flex: 1 1 auto;
@@ -90,18 +90,19 @@ h2, h3 {
     box-sizing: border-box;
 }
 
-.list-months, .list-txt {
+.list-months, 
+.list-txt {
     margin-bottom: 5rem;
 }
 
-.list-months a, .list-txt a {
+.list-months a, 
+.list-txt a {
     display: block;
     list-style: none;
     padding: 1.6rem 0;
     box-sizing: border-box;
     text-decoration: none;
-    border-bottom: 3px solid #281312;
-    border-bottom-style: dotted;
+    border-bottom: 3px dotted #281312;
     color: #281312;
 }
 
